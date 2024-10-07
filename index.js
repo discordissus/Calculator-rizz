@@ -7,6 +7,9 @@ function GotoDisplay(input){
 function Clear(){
     Display.value = "";
 }
+if (Display.value == "undifined"){
+    Display.value = ""
+}
 
 function Calculate(){
     try{
